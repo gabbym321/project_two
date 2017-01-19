@@ -1,4 +1,12 @@
 #grad {
-   height: 500px;
-     background: linear-gradient(to bottom right, orange,white);
+   height: 600px;
+     background: linear-gradient(to bottom right, blue,white);
+      border: 5px solid yellow;
+}
+#img {
+   border: 5px solid yellow;
+}
+h2 {
+   color: purple;
+   text-shadow: 2px 2px 4px black;
 }
