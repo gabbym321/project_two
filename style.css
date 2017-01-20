@@ -3,10 +3,22 @@
      background: linear-gradient(to bottom right, blue,white);
       border: 5px solid yellow;
 }
-#img {
-   border: 5px solid yellow;
+#img2 {
+   transition: width 2s, height 2s, transform 3s;
+}
+#img2:hover {
+   transform: rotate(359deg);
 }
 h2 {
    color: purple;
    text-shadow: 2px 2px 4px black;
+}
+#img3 {
+   transition: width 2s, height 2s, transform 2s;
+}
+#img3:hover { 
+   transform: rotateX(359deg);
+}
+#img1 {
+   
 }
