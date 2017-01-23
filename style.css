@@ -9,10 +9,13 @@
 #img2:hover {
    transform: rotate(359deg); /*earth rotates 359deg*/
 }
-h2 {
+h1 {
    color: purple;
-   text-shadow: 2px 2px 4px black; /*gives text a black shadow*/
+    text-shadow: 2px 2px 4px black; /*makes a shadow in the text*/
+
 }
+  
+
 #img3 {
    transition: width 2s, height 2s, transform 2s; /*does transform mentioned below for two seconds*/
 }
