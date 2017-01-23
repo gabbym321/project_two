@@ -1,32 +1,33 @@
 #grad {
    height: 600px;
-     background: linear-gradient(to bottom right, blue,white);
+     background: linear-gradient(to bottom right, blue,white); /*Makes background the gradient*/
       border: 5px solid yellow;
 }
 #img2 {
-   transition: width 2s, height 2s, transform 3s;
+   transition: width 2s, height 2s, transform 3s; /*earth does the transform discribed in hover for 2s*/
 }
 #img2:hover {
-   transform: rotate(359deg);
+   transform: rotate(359deg); /*earth rotates 359deg*/
 }
 h2 {
    color: purple;
-   text-shadow: 2px 2px 4px black;
+   text-shadow: 2px 2px 4px black; /*gives text a black shadow*/
 }
 #img3 {
-   transition: width 2s, height 2s, transform 2s;
+   transition: width 2s, height 2s, transform 2s; /*does transform mentioned below for two seconds*/
 }
 #img3:hover { 
-   transform: rotateX(359deg);
+   transform: rotateX(359deg); /*3d transform*/
 }
 #img1 {
    animation: sun 5s linear 1 alternate;
+   /*animation for sun picture*/
 }
 @keyframes sun {
     0%   {background-color:purple; left:0px; top:0px;}
     25%  {background-color:blue; left:300px; top:0px;}
     50%  {background-color:green; left:500px; top:500px;}
     75%  {background-color:yellow; left:60px; top:300px;}
-    100% {background-color:orange; left:0px; top:0px;}
+    100% {background-color:orange; left:0px; top:0px;} /*animation to change the background color*/
 }
  
